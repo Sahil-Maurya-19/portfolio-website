@@ -221,7 +221,8 @@ export default function PortfolioWebsite() {
               </Button>
               <Button
                 variant="secondary"
-                href={`${import.meta.env.BASE_URL}BnW-Resume-SahilMaurya`}
+                href={`${import.meta.env.BASE_URL}resume.pdf`}
+                download
               >
                 <Icon name="download" className="mr-2 h-5 w-5" />
                 Download Resume
