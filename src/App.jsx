@@ -210,7 +210,7 @@ export default function PortfolioWebsite() {
               <Icon name="sparkles" className="h-4 w-4" /> Open to internships and entry-level roles
             </div>
             <h1 className="mb-6 text-5xl font-black leading-tight tracking-tight md:text-7xl">
-              Welcome to my work. Let's <span className="text-cyan-300">create</span> something great. 
+              Welcome to my work. Let's <span className="text-cyan-300">create</span> something great.
             </h1>
             <p className="mb-8 max-w-2xl text-lg leading-8 text-slate-300">
               I am a motivated learner with interests in Finance, data analysis, technology, and problem solving. This portfolio highlights my projects, practical skills, and readiness to contribute to a professional team.
@@ -219,8 +219,12 @@ export default function PortfolioWebsite() {
               <Button href="#contact">
                 <Icon name="mail" className="mr-2 h-5 w-5" /> Contact Me
               </Button>
-              <Button variant="secondary"  href={`${import.meta.env.BASE_URL}BnW-Resume-SahilMaurya.pdf`}>
-                <Icon name="download" className="mr-2 h-5 w-5" /> Download Resume
+              <Button
+                variant="secondary"
+                href={`${import.meta.env.BASE_URL}BnW-Resume - SahilMaurya.pdf`}
+              >
+                <Icon name="download" className="mr-2 h-5 w-5" />
+                Download Resume
               </Button>
             </div>
           </motion.div>
